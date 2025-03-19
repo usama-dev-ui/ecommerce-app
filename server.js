@@ -4,7 +4,7 @@ const connectDB = require('./config/db');
 const userRoutes = require('./routes/userRoutes');
 const productRoutes = require('./routes/productRoutes');
 const cors = require('cors');
-
+//const { MongoClient, ServerApiVersion } = require('mongodb');
 
 connectDB();
 
